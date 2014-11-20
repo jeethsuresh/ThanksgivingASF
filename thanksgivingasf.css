@@ -12,7 +12,13 @@ body{
 	height:100px;
 }
 
-#boneclick, #btwoclick{
+#boneclick{
+	width: 240px;
+	height: auto;
+	padding:5px;
+	display: inline;
+} 
+#btwoclick{
 	width: 240px;
 	height: auto;
 	padding:5px;
@@ -22,15 +28,15 @@ body{
 #buttonone{
 	height: 400px;
 	width: 230px;
-	background-image: url("buttonone.jpg");
+	background-image: url(buttonone.jpg);
 	z-index: 1;
 	display: inline;
 
-}
+}/*
 #buttonone:hover{
-	background-image: url("buttononehover.jpg");
+	background-image: url(buttononehover.jpg);
 	z-index:2;
-}
+}*/
 
 #buttontwo{
 	height: 400px;
@@ -38,11 +44,11 @@ body{
 	background-image: url(buttontwo.jpg);
 	z-index: 1;
 	display:inline;
-}
+}/*
 #buttontwo:hover{
 	background-image: url(buttontwohover.jpg);
 	z-index:2;
-}
+}*/
 
 #bonec{
 	padding: 5px;
