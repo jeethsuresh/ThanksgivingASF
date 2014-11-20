@@ -3,24 +3,47 @@
 }
 
 #imgc{
-
+	height: 500px;
+	width: 500px;
 }
 
 #txtc{
-
+	width:500px;
+	height:300px;
 }
 
 #boneclick, #btwoclick{
-
+	width: 240px;
+	height: auto;
+	padding:5px;
+	display: inline;
 }
 
 #buttonone{
+	height: auto;
+	width: auto;
+	background:transparent url(images/about.png);
+	z-index: 1;
 
 }
+#buttonone:hover{
+	background:url(images/aboutR.png);
+	z-index:2;
+}
+
 #buttontwo{
 
 }
+#buttontwo:hover{
 
-#bonec, #btwoc{
+}
 
+#bonec{
+	padding: 5px;
+	z-index: 3;
+}
+
+#btwoc{
+	padding: 5px;
+	z-index: 3;
 }
