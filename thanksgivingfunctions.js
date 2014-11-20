@@ -133,13 +133,11 @@ function twitter() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start Over";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }
 
 function michael_cera() {
-	document.getElementById("imgc").src = "image.jpg"; //We have an image...
+	document.getElementById("imgc").src = "Michael_Cera_2012_(Cropped).jpg"; //We have an image...
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "You're going to have the Michael Cera of Thanksgivings. Awkward, strange, and uncomfortable, just like the actor himself.";
 	
@@ -155,9 +153,7 @@ function captain() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start Over";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }
 
 function teach_game() {
@@ -181,9 +177,7 @@ function troublemaker_x() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start Over";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }
 
 function upset_x() {
@@ -193,9 +187,7 @@ function upset_x() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start ";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }
 
 function forecast() {
@@ -205,9 +197,7 @@ function forecast() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start Again";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }
 
 function has_it() {
@@ -231,9 +221,7 @@ function tensions() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start Again";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }
 
 function laid_back() {
@@ -243,9 +231,7 @@ function laid_back() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start Again";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }
 
 function buckle_up() {
@@ -255,9 +241,7 @@ function buckle_up() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start Again";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }
 
 function TS_DM_x() {
@@ -267,7 +251,5 @@ function TS_DM_x() {
 	
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
-	document.getElementById("startagainbutton").href = "Start Again";
-	
-	document.getElementById("boneclick").href = "javascript:intro()";
+	document.getElementById("startagainbutton").style.display = "block";
 }//commment
