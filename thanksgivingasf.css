@@ -9,7 +9,7 @@ body{
 }
 
 #txtc{
-	width:500px;
+	width:600px;
 	height:auto;
 }
 
@@ -32,6 +32,7 @@ body{
 	background-image: url(buttonone.jpg);
 	z-index: 1;
 	display: inline-block;
+	margin-left:50px;
 
 }
 #buttonone:hover{
@@ -45,6 +46,7 @@ body{
 	background-image: url(buttontwo.jpg);
 	z-index: 1;
 	display:inline-block;
+	margin-left: 50px;
 }
 #buttontwo:hover{
 	background-image: url(buttontwohover.jpg);

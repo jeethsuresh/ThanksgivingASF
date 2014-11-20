@@ -1,9 +1,10 @@
   //.style.display = none
 function intro() {
 	document.getElementById("imgc").src = "feastintotextimage.jpg";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Morguefile.com";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
-	document.getElementById("txtc").innerHTML = "Next Thursday is Thanksgiving, a day when most people gather and share a meal with family members. However, when family members of multiple generations get together, particularly ones you haven't seen in awhile, normal conversations can become awkward and uncomfortable very fast. Want to know how much awkwardness you should prepare for this Turkey Day? Follow this handy flowchart to find out.";
+	document.getElementById("txtc").innerHTML = "Next Thursday is Thanksgiving, a day when most people gather and share a meal with family members. However, when family members of multiple generations get together, particularly ones you haven't seen in awhile, normal conversations can become awkward and uncomfortable very fast. Want to know how much awkwardness you should prepare for this Turkey Day? Follow this handy flowchart to find out. <br> <p style='font-size: 10px'>Written by Camron Owens | Designed by Torey Butner and Steffie Drucker | Programmed by Jeeth Suresh and Sam Buck</p>";
 	
 	document.getElementById("bonec").innerHTML = "Start Here";
 	document.getElementById("buttonone").style.display = "inline-block";
@@ -16,6 +17,7 @@ function intro() {
   
 function grandparents() {
 	document.getElementById("imgc").src = "Grandparents.jpg";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Morguefile.com";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Are your grandparents going to be there?";
@@ -33,6 +35,7 @@ function grandparents() {
 function technology() {
 	//test
 	document.getElementById("imgc").src = "Technology.jpg";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Morguefile.com";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Do they use technology?";
@@ -49,6 +52,7 @@ function technology() {
 function crazy_aunt() {
 	//test
 	document.getElementById("imgc").src = "Aunt.jpg";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Morguefile.com";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "What about your crazy aunt?";
@@ -65,6 +69,7 @@ function crazy_aunt() {
 function relationship() {
 	//test
 	document.getElementById("imgc").src = "Relationship.jpg";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Morguefile.com";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Are you in a relationship?";
@@ -81,6 +86,7 @@ function relationship() {
 function kardashian() {
 	//test
 	document.getElementById("imgc").src = "awkward.png";  
+	document.getElementById("imagecredit").innerHTML = "Torey Butner | Assistant design editor";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Do they know about that Kim Kardashian #crashtheinternet thing?";
@@ -97,6 +103,7 @@ function kardashian() {
 function cards() {
 	//test
 	document.getElementById("imgc").src = "cardsagainsthumanity.jpg";
+	document.getElementById("imagecredit").innerHTML = "Torey Butner | Assistant design editor";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Will \"Cards Against Humanity\" be played?";
@@ -113,6 +120,7 @@ function cards() {
 function no_x() {
 	//test
 	document.getElementById("imgc").style.display = "none";   
+	document.getElementById("imagecredit").innerHTML = "";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Do you even \"Thanksgiving\"?";
 	
@@ -128,6 +136,7 @@ function no_x() {
 function continue_relationship() {
 	//test
 	document.getElementById("imgc").style.display = "none";     
+	document.getElementById("imagecredit").innerHTML = "";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Will they continue to ask if you have a relationship regardless of saying no?";
 	
@@ -143,6 +152,7 @@ function continue_relationship() {
 function twitter() {
 	//test
 	document.getElementById("imgc").src = "twitter.jpg";
+	document.getElementById("imagecredit").innerHTML = "Torey Butner | Assistant design editor";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "You may not have an awkward Thanksgiving, but expect to answer the question, \"What's a Twitter?\"";
@@ -156,6 +166,7 @@ function michael_cera() {
 	//test
 	document.getElementById("imgc").src = "Michael_Cera_2012_(Cropped).jpg"; //We have an image...
 	document.getElementById("imgc").style.display = "inline-block";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Wiki Commons";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "You're going to have the Michael Cera of Thanksgivings. Awkward, strange, and uncomfortable, just like the actor himself.";
 	
@@ -167,6 +178,7 @@ function michael_cera() {
 function captain() {
 	//test
 	document.getElementById("imgc").style.display = "none";
+	document.getElementById("imagecredit").innerHTML = "";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "You're asking for an awkward time playing that game. Captain, prepare for awkwardness.";
 	
@@ -178,6 +190,7 @@ function captain() {
 function teach_game() {
 	//test
 	document.getElementById("imgc").style.display = "none";
+	document.getElementById("imagecredit").innerHTML = "";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Will you try to teach your family a new game that they will ultimately fail to grasp?";
 	
@@ -193,6 +206,7 @@ function teach_game() {
 function troublemaker_x() {
 	//test
 	document.getElementById("imgc").src = "Gobble.jpg";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Morguefile.com";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Sorry for doubting you. You have a made up statistic of a 43% chance of awkward. Gobble gobble.";
@@ -205,6 +219,7 @@ function troublemaker_x() {
 function upset_x() {
 	//test
 	document.getElementById("imgc").src = "shruggingemoticon.jpg";
+	document.getElementById("imagecredit").innerHTML = "Torey Butner | Assistant design editor";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Well, now I just feel bad...I would invite you back with me, but crazy aunt, you know?";
@@ -217,6 +232,7 @@ function upset_x() {
 function forecast() {
 	//test
 	document.getElementById("imgc").src = "weatherturkey.jpg"; // have it?
+	document.getElementById("imagecredit").innerHTML = "Torey Butner | Assistant design editor";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Your Thanksgiving forecast is turkey with a large chance of awkward.";
@@ -229,6 +245,7 @@ function forecast() {
 function has_it() {
 	//test
 	document.getElementById("imgc").style.display = "none";
+	document.getElementById("imagecredit").innerHTML = "";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Has it?";
 	
@@ -244,6 +261,7 @@ function has_it() {
 function tensions() {
 	//test
 	document.getElementById("imgc").style.display = "none";
+	document.getElementById("imagecredit").innerHTML = "";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Tensions may run high between you and the fam. Keep your cool and you'll have a great Turkey Day!";
 	
@@ -255,6 +273,7 @@ function tensions() {
 function laid_back() {
 	//test
 	document.getElementById("imgc").src = "Thumbsup.jpg";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Morguefile.com";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Way to be chill when your family will be cooped up with a limited amount of food! Go you!";
@@ -267,6 +286,7 @@ function laid_back() {
 function buckle_up() {
 	//test
 	document.getElementById("imgc").src = "buckleupforawkward.jpg";
+	document.getElementById("imagecredit").innerHTML = "Photo courtesy of Morguefile.com";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Buckle up for awkward. Prepare for a lecture on values and how different the world was \"back in my day.\"";
@@ -279,6 +299,7 @@ function buckle_up() {
 function TS_DM_x() {
 	//test
 	document.getElementById("imgc").style.display = "none";
+	document.getElementById("imagecredit").innerHTML = "";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "You might be able to make it out alive, void of smudgy cheek kisses from your Memaw.";
 	
