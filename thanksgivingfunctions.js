@@ -17,6 +17,7 @@ function intro() {
 function grandparents() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "Grandparents.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Are your grandparents going to be there?";
 	
@@ -32,6 +33,7 @@ function grandparents() {
 function technology() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "Technology.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Do they use technology?";
 	
@@ -47,6 +49,7 @@ function technology() {
 function crazy_aunt() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "Aunt.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "What about your crazy aunt?";
 	
@@ -62,6 +65,7 @@ function crazy_aunt() {
 function relationship() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "Relationship.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Are you in a relationship?";
 	
@@ -77,6 +81,7 @@ function relationship() {
 function kardashian() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "awkward.png";  
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Do they know about that Kim Kardashian #crashtheinternet thing?";
 	
@@ -92,6 +97,7 @@ function kardashian() {
 function cards() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "cardsagainsthumanity.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Will \"Cards Against Humanity\" be played?";
 	
@@ -137,6 +143,7 @@ function continue_relationship() {
 function twitter() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "twitter.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "You may not have an awkward Thanksgiving, but expect to answer the question, \"What's a Twitter?\"";
 	
@@ -148,6 +155,7 @@ function twitter() {
 function michael_cera() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "Michael_Cera_2012_(Cropped).jpg"; //We have an image...
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "You're going to have the Michael Cera of Thanksgivings. Awkward, strange, and uncomfortable, just like the actor himself.";
 	
@@ -185,6 +193,7 @@ function teach_game() {
 function troublemaker_x() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "Gobble.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Sorry for doubting you. You have a made up statistic of a 43% chance of awkward. Gobble gobble.";
 	
@@ -196,6 +205,7 @@ function troublemaker_x() {
 function upset_x() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "shruggingemoticon.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Well, now I just feel bad...I would invite you back with me, but crazy aunt, you know?";
 	
@@ -207,6 +217,7 @@ function upset_x() {
 function forecast() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "weatherturkey.jpg"; // have it?
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Your Thanksgiving forecast is turkey with a large chance of awkward.";
 	
@@ -244,6 +255,7 @@ function tensions() {
 function laid_back() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "Thumbsup.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Way to be chill when your family will be cooped up with a limited amount of food! Go you!";
 	
@@ -255,6 +267,7 @@ function laid_back() {
 function buckle_up() {
 	window.scrollTo(0,0);
 	document.getElementById("imgc").src = "buckleupforawkward.jpg";
+	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Buckle up for awkward. Prepare for a lecture on values and how different the world was \"back in my day.\"";
 	
