@@ -267,4 +267,4 @@ function TS_DM_x() {
 	document.getElementById("startagainbutton").href = "Start Again";
 	
 	document.getElementById("boneclick").href = "javascript:intro()";
-}
+}//commment
