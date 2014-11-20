@@ -11,7 +11,7 @@ function intro() {
 	document.getElementById("startagainbutton").style.display = "none";
 	
 	document.getElementById("boneclick").href = "javascript:grandparents()";
-	window.parent.parent.scrollTo(0,0);
+	//test
 }
   
 function grandparents() {
@@ -27,11 +27,11 @@ function grandparents() {
 	
 	document.getElementById("boneclick").href = "javascript:technology()";
 	document.getElementById("btwoclick").href = "javascript:crazy_aunt()";
-	window.parent.parent.scrollTo(0,0);
+	//test
 }
 
 function technology() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "Technology.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -47,7 +47,7 @@ function technology() {
 }
 
 function crazy_aunt() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "Aunt.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -63,7 +63,7 @@ function crazy_aunt() {
 }
 
 function relationship() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "Relationship.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -79,7 +79,7 @@ function relationship() {
 }
 
 function kardashian() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "awkward.png";  
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -95,7 +95,7 @@ function kardashian() {
 }
 
 function cards() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "cardsagainsthumanity.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -111,7 +111,7 @@ function cards() {
 }
 
 function no_x() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").style.display = "none";   
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Do you even \"Thanksgiving\"?";
@@ -126,7 +126,7 @@ function no_x() {
 }
 
 function continue_relationship() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").style.display = "none";     
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Will they continue to ask if you have a relationship regardless of saying no?";
@@ -141,7 +141,7 @@ function continue_relationship() {
 }
 
 function twitter() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "twitter.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -153,7 +153,7 @@ function twitter() {
 }
 
 function michael_cera() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "Michael_Cera_2012_(Cropped).jpg"; //We have an image...
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -165,7 +165,7 @@ function michael_cera() {
 }
 
 function captain() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").style.display = "none";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "You're asking for an awkward time playing that game. Captain, prepare for awkwardness.";
@@ -176,7 +176,7 @@ function captain() {
 }
 
 function teach_game() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").style.display = "none";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Will you try to teach your family a new game that they will ultimately fail to grasp?";
@@ -191,7 +191,7 @@ function teach_game() {
 }
 
 function troublemaker_x() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "Gobble.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -203,7 +203,7 @@ function troublemaker_x() {
 }
 
 function upset_x() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "shruggingemoticon.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -215,7 +215,7 @@ function upset_x() {
 }
 
 function forecast() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "weatherturkey.jpg"; // have it?
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -227,7 +227,7 @@ function forecast() {
 }
 
 function has_it() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").style.display = "none";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Has it?";
@@ -242,7 +242,7 @@ function has_it() {
 }
 
 function tensions() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").style.display = "none";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "Tensions may run high between you and the fam. Keep your cool and you'll have a great Turkey Day!";
@@ -253,7 +253,7 @@ function tensions() {
 }
 
 function laid_back() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "Thumbsup.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -265,7 +265,7 @@ function laid_back() {
 }
 
 function buckle_up() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").src = "buckleupforawkward.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -277,7 +277,7 @@ function buckle_up() {
 }
 
 function TS_DM_x() {
-	window.parent.parent.scrollTo(0,0);
+	//test
 	document.getElementById("imgc").style.display = "none";
 	document.getElementById("txtc").style.fontSize = "230%";
 	document.getElementById("txtc").innerHTML = "You might be able to make it out alive, void of smudgy cheek kisses from your Memaw.";
