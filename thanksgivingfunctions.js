@@ -4,7 +4,7 @@ function intro() {
 	document.getElementById("imgc").src = "feastintotextimage.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
-	document.getElementById("txtc").innerHTML = "Next Thursday is Thanksgiving, a day when most people gather and share a meal with family members. However, when family members of multiple generations get together, particularly ones you haven’t seen in awhile, normal conversations can become awkward and uncomfortable very fast. Want to know how much awkwardness you should prepare for this Turkey Day? Follow this handy flowchart to find out.";
+	document.getElementById("txtc").innerHTML = "Next Thursday is Thanksgiving, a day when most people gather and share a meal with family members. However, when family members of multiple generations get together, particularly ones you haven't seen in awhile, normal conversations can become awkward and uncomfortable very fast. Want to know how much awkwardness you should prepare for this Turkey Day? Follow this handy flowchart to find out.";
 	
 	document.getElementById("bonec").innerHTML = "Start Here";
 	document.getElementById("buttonone").style.display = "inline-block";
