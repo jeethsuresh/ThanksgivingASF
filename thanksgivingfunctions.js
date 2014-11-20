@@ -76,7 +76,7 @@ function relationship() {
 
 function kardashian() {
 	window.scrollTo(0,0);
-	document.getElementById("imgc").src = "awkward.jpg";  
+	document.getElementById("imgc").src = "awkward.png";  
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Do they know about that Kim Kardashian #crashtheinternet thing?";
 	
@@ -243,7 +243,7 @@ function tensions() {
 
 function laid_back() {
 	window.scrollTo(0,0);
-	document.getElementById("imgc").src = "Thumbs up.jpg";
+	document.getElementById("imgc").src = "Thumbsup.jpg";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Way to be chill when your family will be cooped up with a limited amount of food! Go you!";
 	
@@ -254,7 +254,7 @@ function laid_back() {
 
 function buckle_up() {
 	window.scrollTo(0,0);
-	document.getElementById("imgc").src = "Buckle up for awkward.jpg";
+	document.getElementById("imgc").src = "buckleupforawkward.jpg";
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Buckle up for awkward. Prepare for a lecture on values and how different the world was \"back in my day.\"";
 	
