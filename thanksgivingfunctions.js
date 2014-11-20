@@ -1,6 +1,5 @@
   //.style.display = none
 function intro() {
-	window.parent.parent.scrollTo(0,0);
 	document.getElementById("imgc").src = "feastintotextimage.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -12,10 +11,10 @@ function intro() {
 	document.getElementById("startagainbutton").style.display = "none";
 	
 	document.getElementById("boneclick").href = "javascript:grandparents()";
+	window.parent.parent.scrollTo(0,0);
 }
   
 function grandparents() {
-	window.parent.parent.scrollTo(0,0);
 	document.getElementById("imgc").src = "Grandparents.jpg";
 	document.getElementById("imgc").style.display = "inline-block";
 	document.getElementById("txtc").style.fontSize = "large";
@@ -28,6 +27,7 @@ function grandparents() {
 	
 	document.getElementById("boneclick").href = "javascript:technology()";
 	document.getElementById("btwoclick").href = "javascript:crazy_aunt()";
+	window.parent.parent.scrollTo(0,0);
 }
 
 function technology() {
