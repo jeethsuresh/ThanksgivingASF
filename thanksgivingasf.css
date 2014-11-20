@@ -1,5 +1,6 @@
 body{
-	background: ;
+	background-color: white;
+	font-family: "Arial", Serif;
 }
 
 #imgc{
@@ -9,20 +10,20 @@ body{
 
 #txtc{
 	width:500px;
-	height:100px;
+	height:auto;
 }
 
 #boneclick{
 	width: 240px;
 	height: auto;
 	padding:5px;
-	display: inline;
+	display: inline-block;
 } 
 #btwoclick{
 	width: 240px;
 	height: auto;
 	padding:5px;
-	display: inline;
+	display: inline-block;
 }
 
 #buttonone{
@@ -30,25 +31,25 @@ body{
 	width: 230px;
 	background-image: url(buttonone.jpg);
 	z-index: 1;
-	display: inline;
+	display: inline-block;
 
-}/*
+}
 #buttonone:hover{
 	background-image: url(buttononehover.jpg);
 	z-index:2;
-}*/
+}
 
 #buttontwo{
 	height: 400px;
 	width: 230px;
 	background-image: url(buttontwo.jpg);
 	z-index: 1;
-	display:inline;
-}/*
+	display:inline-block;
+}
 #buttontwo:hover{
 	background-image: url(buttontwohover.jpg);
 	z-index:2;
-}*/
+}
 
 #bonec{
 	padding: 5px;
@@ -56,6 +57,12 @@ body{
 	display:inline;
 	width: 230px;
 	height: 400px;
+	margin-top:220px;
+	position:absolute;
+	text-align:center;
+	font-size: 20px;
+	width: 230px;
+	color:purple;
 }
 
 #btwoc{
@@ -64,4 +71,10 @@ body{
 	display:inline;
 	width: 230px;
 	height: 400px;
+	margin-top:220px;
+	position:absolute;
+	text-align:center;
+	font-size: 20px;
+	width: 230px;
+	color:purple;
 }
