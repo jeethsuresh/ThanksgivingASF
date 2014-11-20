@@ -70,7 +70,7 @@ function relationship() {
 }
 
 function kardashian() {
-	document.getElementById("imgc").src = "kimkbuttreaction.jpg";  //swap image?
+	document.getElementById("imgc").src = "awkward.jpg";  
 	document.getElementById("txtc").style.fontSize = "large";
 	document.getElementById("txtc").innerHTML = "Do they know about that Kim Kardashian #crashtheinternet thing?";
 	
