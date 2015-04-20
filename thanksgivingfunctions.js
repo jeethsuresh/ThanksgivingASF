@@ -12,8 +12,9 @@ function intro() {
 	document.getElementById("startagainbutton").style.display = "none";
 	
 	document.getElementById("boneclick").href = "javascript:grandparents()";
-	//test
+	window.parent.scrollTo(0,0);
 }
+
   
 function grandparents() {
 	document.getElementById("imgc").src = "Grandparents.jpg";
@@ -29,7 +30,7 @@ function grandparents() {
 	
 	document.getElementById("boneclick").href = "javascript:technology()";
 	document.getElementById("btwoclick").href = "javascript:crazy_aunt()";
-	//test
+	
 }
 
 function technology() {
@@ -306,4 +307,4 @@ function TS_DM_x() {
 	document.getElementById("buttonone").style.display = "none";
 	document.getElementById("buttontwo").style.display = "none";
 	document.getElementById("startagainbutton").style.display = "block";
-}//commment
+} //commment
